@@ -18,10 +18,4 @@ li {
 
 input:invalid {
     background-color: lightcoral;
-    outline: red;
-
-}
-
-input:invalid.focus {
-    outline: none;
 }
