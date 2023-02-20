@@ -1,3 +1,10 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
 form>ul {
     display: flex;
     flex-direction: column;
@@ -7,4 +14,14 @@ form>ul {
 
 li {
     list-style: none;
+}
+
+input:invalid {
+    background-color: lightcoral;
+    outline: red;
+
+}
+
+input:invalid.focus {
+    outline: none;
 }
