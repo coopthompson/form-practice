@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms and Regular expression</title>
+</head>
+<body>
+    <script src="forms.js"></script>
+    <form>
+        
+        <ul>
+            <li>
+                <lable for="email">Enter Email</lable>
+                <input type="email" id="email" name="email">
+                <button>Submit</button>
+            </li>
+            <li>
+                <lable for="country">Choose Your Country</lable>
+                <input list="countries" id="country" name="country">
+                <datalist id="countries">
+                    <option value="United States">
+                    <option value="France">
+                    <option value="Singapore">
+                    <option value="Japan">
+                    <option value="Egypt">
+                    <option value="Other">
+                  </datalist>
+                <button>Submit</button>
+            </li>
+            <li>
+                <lable for="pass">Enter Password</lable>
+                <input type="text" id="pass" name="pass">
+                <button>Submit</button>
+            </li>
+            <li>
+                <lable for="pass-confirm">Confirm Password</lable>
+                <input type="text" id="pass-confirm" name="pass-confirm">
+                <button>Submit</button>
+            </li>
+        </ul>
+
+    </form>
+</body>
+</html>
